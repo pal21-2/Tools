@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="all">
+    <meta http-equiv="keywords" content="Todo,ぱるプログラム">
+    <meta name="description" content="あったら嬉しい(?)かもしれないツール">
+    <title>ToDo - ぱるプログラム</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Todo</h1>
+      <div class="nav">
+        <ul>
+          <li><a href="/">ホーム</a></li>
+          <li><a href="/about">"ぱる"について</a></li>
+        </ul>
+      </div>
+    </header>
+    <div class="container">
+      <div class="left">
+        <div class="New">
+          <h2>追加</h2>
+          <input type="text" id="add" placeholder="タイトルを入力"/>
+          <input type="text" id="inf" placeholder="内容を入力"/>
+          <button id="set">決定</button>
+        </div>
+      </div>
+      <div class="right">
+        <div id="Todo"></div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
